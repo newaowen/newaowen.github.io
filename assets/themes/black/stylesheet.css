@@ -58,7 +58,7 @@ body {
   */
     height: 100%;
     background: #E6E6E6;
-    font: Î¢ÈíÑÅºÚ,12px/1.5 'Lucida Grande',tahoma,arial,ËÎÌåb8b\4f53,;
+    font: Î¢ï¿½ï¿½ï¿½Åºï¿½,12px/1.5 'Lucida Grande',tahoma,arial,ï¿½ï¿½ï¿½ï¿½b8b\4f53,;
     color: #444;
     margin: 0;
     padding: 0;
@@ -299,7 +299,6 @@ blockquote {
 
 ul li {
   list-style: none;
-  padding-left: 20px;
 }
 
 ol li {
@@ -373,11 +372,16 @@ footer a:hover {
 /* Mobile Portrait Size to Mobile Landscape Size (devices and browsers) */
 @media only screen and (max-width: 479px) {}
 
+p {
+    line-height: 1.5em;
+}
+
 .grid {
     max-width: 1000px;
     margin: 0 auto;
 }
-.container-narrow .content {
+
+.content-container {
     border-radius: 8px;
     padding: 20px;
     /*
@@ -411,6 +415,10 @@ footer a:hover {
     color: #444;
 }
 
+.navbar li {
+    margin-left: 20px;
+}
+
 .nav a:hover {
     color: #aaa !important
 }
@@ -423,7 +431,7 @@ footer a:hover {
 }
 
 .page-header {
-    margin-bottom: 5px;
+    margin-bottom: 15px;
     border-bottom-color: #ddd;
 }
 .page-header span {
@@ -431,4 +439,6 @@ footer a:hover {
    font-size:13px;
    color:#a9a9a9;
 }
-
+.posts p {
+    margin-bottom: 10px;
+}
