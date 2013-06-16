@@ -3,6 +3,7 @@ layout: default
 title: 首页
 group: navigation
 weight: 1
+paginate: 8
 ---
 
 <section id="main_content">
@@ -16,8 +17,8 @@ weight: 1
                         <span>{{ post.date | date: "%Y-%m-%d"}}</span>
                     </div>
                     <div>
-                        {{ post.content | truncate:150 }}
-                        <div><a href="{{ BASE_PATH }}{{ post.url }}">阅读更多</a></div>
+                        {{ post.content | split:'<!--abstract-->' | first }}
+                        <div><a href="{{ BASE_PATH }}{{ post.url }}">阅读全文</a></div>
                     </div>
                 </li>
                 {% endfor %}

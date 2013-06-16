@@ -377,7 +377,7 @@ p {
 }
 
 .grid {
-    max-width: 1000px;
+    max-width: 900px;
     margin: 0 auto;
 }
 
@@ -430,10 +430,19 @@ p {
     box-shadow: none;
 }
 
+.page-header h2 {
+    font-size: 25px;
+}
+
 .page-header {
     margin-bottom: 15px;
     border-bottom-color: #ddd;
 }
+
+.page-header a {
+    font-size: 25px;
+}
+
 .page-header span {
     margin-left:12px;
    font-size:13px;
@@ -441,4 +450,13 @@ p {
 }
 .posts p {
     margin-bottom: 10px;
+}
+
+.row-fluid .span12 h2 {
+    margin-bottom: 20px;
+}
+
+.row-fluid .span12 h3 {
+    font-size: 18px;
+    color: #333;
 }
