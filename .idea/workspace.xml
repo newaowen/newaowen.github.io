@@ -3,11 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="08cf55ed-2dd1-4465-a42e-11478154cce9" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_includes/posts_collate" afterPath="$PROJECT_DIR$/_includes/posts_collate" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_posts/core-samples/2013-06-15-start.md" afterPath="$PROJECT_DIR$/_posts/core-samples/2013-06-15-start.md" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/archive.html" afterPath="$PROJECT_DIR$/archive.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/themes/black/stylesheet.css" afterPath="$PROJECT_DIR$/assets/themes/black/stylesheet.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.html" afterPath="$PROJECT_DIR$/index.html" />
     </list>
     <ignored path="my-git-blog.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -464,7 +459,11 @@
       <created>1371370770804</created>
       <updated>1371370770804</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="update 归档">
+      <created>1371380227434</created>
+      <updated>1371380227434</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -526,7 +525,7 @@
     <option name="SHOW_VCS_ERROR_NOTIFICATIONS" value="true" />
     <option name="FORCE_NON_EMPTY_COMMENT" value="false" />
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="false" />
-    <option name="LAST_COMMIT_MESSAGE" value="调整导航顺序" />
+    <option name="LAST_COMMIT_MESSAGE" value="update 归档" />
     <option name="MAKE_NEW_CHANGELIST_ACTIVE" value="false" />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="false" />
     <option name="CHECK_FILES_UP_TO_DATE_BEFORE_COMMIT" value="false" />
@@ -542,6 +541,7 @@
     <MESSAGE value="update" />
     <MESSAGE value="删除jekyll introduction" />
     <MESSAGE value="调整导航顺序" />
+    <MESSAGE value="update 归档" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
